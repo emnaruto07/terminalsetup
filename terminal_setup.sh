@@ -4,13 +4,13 @@ cd ~
 rm .vimrc .tmux.conf .screenrc
 
 echo "[+] Cloning my dotfiles.."
-git clone https://github.com/dr00py2/dotfiles.git
+git clone https://github.com/Sc0rpion2/dotfiles.git
 echo "[+] cloned."
 cd dotfiles/
 mv .bash_profile .vimrc .screenrc .tmux.conf ~/
 echo "[+] Moved"
-rm -rf dotfiles/
 cd ~
+rm -rf dotfiles/
 rm .bashrc
 mv .bash_profile .bashrc
 echo "[+] Renamed."
