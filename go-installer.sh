@@ -8,9 +8,9 @@ sudo mv go /usr/local
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
-echo 'export GOROOT=/usr/local/go' >> ~/.zshrc
-echo 'export GOPATH=$HOME/go'   >> ~/.zshrc
-echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >> ~/.zshrc
+echo 'export GOROOT=/usr/local/go' >> ~/.bashrc
+echo 'export GOPATH=$HOME/go'   >> ~/.bashrc
+echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >> ~/.bashrc
 source ~/.zshrc
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 git clone https://github.com/fatih/vim-go.git ~/.vim/plugged/vim-go
